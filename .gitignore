@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# データ（原則除外、サンプルのみ追跡）
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/
+!data/sample/**
+
+# モデル出力
+outputs/*
+!outputs/.gitkeep
+
+# Excel 一時ファイル
+~$*.xlsx
+~$*.xlsm
+~$*.docx
+*.tmp
+
+# OS固有
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.vs/
+*.user

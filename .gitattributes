@@ -1,0 +1,13 @@
+# テキスト系はLFに統一
+*.csv  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+
+# バイナリ扱い
+*.xlsx binary
+*.xlsm binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
